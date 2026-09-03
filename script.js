@@ -42,4 +42,12 @@ return num.toString();
 
 //incrementar a curtida 
 
-function addlike()
+function addlike(){
+     baseLikes++;
+     isLiked = true;
+     likeBtn.classList.add("Like");
+     if(LikeCountSpan){
+        LikeCountSpan.textContent = formatLikes
+     }
+
+}

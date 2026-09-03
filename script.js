@@ -37,3 +37,9 @@ function formatLikes(num) {
   if(num >=100){
         return(num/1000),toFixed(1)+"k";
 }
+return num.toString();
+}
+
+//incrementar a curtida 
+
+function addlike()
